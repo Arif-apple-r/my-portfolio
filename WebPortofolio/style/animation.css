@@ -1,0 +1,26 @@
+.reveal {
+  opacity: 0;
+  transform: translateY(0px);
+  transition: all 1s ease-out;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Dari kiri */
+.fade-left {
+  transform: translateX(-50px);
+}
+.fade-left.active {
+  transform: translateX(0);
+}
+
+/* Dari kanan */
+.fade-right {
+  transform: translateX(50px);
+}
+.fade-right.active {
+  transform: translateX(0);
+}
